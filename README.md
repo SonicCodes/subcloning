@@ -6,6 +6,6 @@ In my project, I subcloned a llama8b model into a 370m parameter model. I utiliz
 
 Unfortunately, I don't have the time to research and extend this subcloning technique to general transformers at the moment. However, I have decided to release the subcloning method as it is, i'll release a gpt-2 variant that was done by keller.
 
-Below is an image showing the convergence of training loss with and without subcloned weights:
+Below is an image showing the convergence of training-loss with and without subcloned weights:
 
 ![Training Loss Convergence](subcloning_llama8b_to_300m.png)
